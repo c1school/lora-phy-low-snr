@@ -20,7 +20,7 @@ from lora_baseline import (
 # 3. 거기에 AWGN 추가해서 noisy 심볼 생성
 # 4. 이를 (N, 2) 형태의 Re/Im 2채널 데이터로 저장
 # 5. train / val / test 세트를 npz로 저장
-# 6. 저장되는 데이터는 이렇게 생깁니다.
+# 6. 저장되는 데이터는 이렇게 밑과 같음.
 # 7. X_noisy: 입력 데이터
 # 8. Y_clean: 정답 데이터
 # 9. symbol_index: 심볼 번호
